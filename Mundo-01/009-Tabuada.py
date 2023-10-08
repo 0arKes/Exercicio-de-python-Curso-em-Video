@@ -1,3 +1,7 @@
+"""
+Exercício Python 009: Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+"""
+
 numero = int(input('digite um numero: '))
 print('='*18)
 print(f'A tabuada de {numero} é: ')
