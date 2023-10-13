@@ -19,25 +19,29 @@ while True:
     else:
         if maisp < np[1]:
             maisp = np[1]
+
         if menosp > np[1]:
             menosp = np[1]
 
     pessoas.append(np[:])
     np.clear()
 
-    c = str(input("Quer Continuar s/n: "))
+    c = str(input("Quer Continuar S/n: "))
     if c == "n":
         break
 
-print(f"A quantidade de pessoas registradas é {len(pessoas)}")
-print(f"A pessoa mais pesada tem {maisp}Kg e é ",end=',')
+print(40*'-=')
+print(f"A quantidade de pessoas registradas é: {len(pessoas)}")
+print(f"A(s) pessoa(s) mais pesada tem: {maisp}Kg e é(são): ",end='')
 
 for p in pessoas:
     if p[1] == maisp:
-        print(p[0])
+        print(f'{p[0]}, ', end='')
 
-print(f"E a pessoa mais leve tem {menosp}, e é ",end=', ')
+print()
+
+print(f"E a(s) pessoa(s) mais leve tem: {menosp}Kg, e é(são): ",end='')
 
 for p in pessoas:
-    if[1] == menosp:
-        print(p[0])
+    if p[1] == menosp:
+        print(f'{p[0]}, ', end='')
