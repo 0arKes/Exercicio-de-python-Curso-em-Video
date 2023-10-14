@@ -3,10 +3,17 @@ Exercício Python 104: Crie um programa que tenha a função leiaInt(), que vai 
 Ex: n = leiaInt('Digite um n: ')"""
 
 def leaint(valor):
-    ok = False
+    valor = input(valor)
 
-    while True:
-        n = str(input(valor))
+    if valor.isnumeric() == True:
+        valor = int(valor)
 
-n = leaint("Digite: ")
-print(n)
+    else:
+        while valor.isnumeric() == False:
+            print('\033[31mERRO! Digite apenas números')
+            valor = input('\033[37mDigite apenas números: ')
+    
+    return valor
+
+n = leaint('Digite um numero: ')
+print(f'Você Digitou o número {n}')
