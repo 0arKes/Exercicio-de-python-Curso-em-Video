@@ -1,4 +1,12 @@
-from Ex107_a_115.Ex108 import moedas
+"""
+Exercício Python 108: Adapte o código do desafio #107, criando uma função adicional chamada moeda() que consiga mostrar os números como um valor monetário formatado.
+"""
+
+#outros editores
+import moedas
+
+#pycharm
+#from Ex107_a_115.Ex108 import moedas
 
 valor = float(input("Digite o valor: "))
 
