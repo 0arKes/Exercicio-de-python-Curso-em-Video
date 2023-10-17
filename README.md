@@ -1,5 +1,5 @@
 # Exercicio de python Curso em Video
-## Todos os Exercícios do Curso de Python, do canal Curso em Video. As soluções podem não ser as melhores, mas foi o que encontrei na epoca dos estudos.
+## Todos os Exercícios do Curso de Python, do canal Curso em Video. Essas são as soluções que encontrei para os exercicíos.
 
 # Playlist do curso:
 ### www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0
