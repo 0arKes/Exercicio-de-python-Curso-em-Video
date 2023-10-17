@@ -1,4 +1,4 @@
-# Exercicio de python Curso em Video
+# Exercicío de python Curso em Video
 ## Todos os Exercícios do Curso de Python, do canal Curso em Video. Essas são as soluções que encontrei para os exercicíos.
 
 # Playlist do curso:
